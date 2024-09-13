@@ -1,9 +1,12 @@
 {
+  "url": "https://json.schemastore.org/package.json",
   "name": "stack",
   "version": "1.0.0",
   "author": "Benjamin Pasco",
   "license": "ISC",
   "description": "boilerplate for web dev",
+  "sideEffects": false,
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "@remix-run/dev": "^2.12.0",
+    "typescript": "^5.6.2",
     "vite": "^5.4.5"
   },
   "keywords": [
