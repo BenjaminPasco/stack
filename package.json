@@ -1,12 +1,28 @@
 {
   "name": "stack",
   "version": "1.0.0",
+  "author": "Benjamin Pasco",
+  "license": "ISC",
   "description": "boilerplate for web dev",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Benjamin Pasco",
-  "license": "ISC"
+  "dependencies": {
+    "@remix-run/node": "^2.12.0",
+    "@remix-run/react": "^2.12.0",
+    "@remix-run/serve": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.12.0",
+    "vite": "^5.4.5"
+  },
+  "keywords": [
+    "react",
+    "remix",
+    "javascript",
+    "typescript"
+  ]
 }
